@@ -27,7 +27,7 @@ for x in note():
     elif att == 'noteHeading':
         if x.span != None: #highlight, generates in-text citation
             highlight = True
-            loc = re.findall('Location [0-9]+', str(x).strip())[0]
+            loc = re.findall('Location [0-9]+', str(x))[0]
             in_text = '(' + author_name + ', loc. ' + re.findall('[0-9]+', loc)[0] + ')'
         else: highlight = False #note
     elif att == 'noteText':
