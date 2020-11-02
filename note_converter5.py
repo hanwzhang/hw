@@ -1,10 +1,10 @@
-from bs4 import BeautifulSoup #Note converter 4.0 - now with BeautifulSoup
-#HTML -> Markdown; deletes space in Chinese; distinguishes between notes and highlights
+from bs4 import BeautifulSoup
+#HTML -> txt; deletes extra space in Chinese
 import re
 
 #Import and export position
 name_old = input('Import - Enter file name:')
-savepath = '/Users/hanwenzhang/Desktop/' + name_old[0:name_old.find('.')] + '.txt'
+savepath = '/Users/hanwenzhang/Desktop/' + name_old[0:name_old.find('.')] + '.txt' #export path
 fh = open(name_old,'r')
 fh2 = open(savepath,'w')
 author_name = input('Author last name:')
