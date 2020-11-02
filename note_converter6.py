@@ -4,7 +4,7 @@ import re
 
 #Import and export position
 name_old = input('Import - Enter file name:')
-savepath = '/Users/hanwenzhang/Desktop/' + name_old[0:name_old.find('.')] + '.txt'
+savepath = '/Users/' + name_old[0:name_old.find('.')] + '.txt'
 fh = open(name_old,'r')
 fh2 = open(savepath,'w')
 author_name = input('Author last name:')
