@@ -1,0 +1,61 @@
+/*Last edit: Mar.1 2021 by Hanwen Zhang*/
+html {
+  text-align: justify;
+  margin: 16;
+}
+/*正文*/
+p {
+    font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+    font-size: 15pt;
+    background-color: #fefefe; /*可调*/
+    line-height: 2;
+    text-align: justify;
+}
+
+/*正文中的蓝字画重点，用<b></b>*/
+b {
+  font-weight: bold;
+  color: #244B80;
+}
+
+/*各级标题，格式可调*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #525353;
+}
+
+/*分割线上的小标题，前面加##*/
+h2 {
+    text-align: center;
+    color: #525353;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    color: #777777;
+    background-color: inherit;
+    font-size: 14px;
+}
+
+/*引用*/
+blockquote {
+  border: none;
+}
+blockquote p {
+  color: #525353;
+  font-size: 13pt;
+  text-align: center;
+}
